@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { TopProgressBar } from "@/components/top-progress-bar";
 import { PageTransition } from "@/components/page-transition";
 
-const siteUrl = "https://kasyaf.id";
+const siteUrl = "https://www.kasyaf.id";
 const title = "Kasyaf.id - Redis & Vector Cloud by Cikawan";
 const description =
   "Kasyaf Cloud - Lightweight Managed Redis & Qdrant Vector DB by Cikawan. Upstash alternative, fast & affordable.";

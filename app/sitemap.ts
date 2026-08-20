@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   return [
     {
-      url: "https://kasyaf.id",
+      url: "https://www.kasyaf.id",
       lastModified: now,
       changeFrequency: "weekly",
       priority: 1,
