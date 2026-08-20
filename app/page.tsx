@@ -1,4 +1,4 @@
-import { Database, Layers, Github } from "lucide-react";
+import { Database, Layers, CurlyBracesIcon } from "lucide-react";
 import { HubDiagram } from "@/components/hub-diagram";
 import { ServiceCard } from "@/components/service-card";
 
@@ -64,13 +64,13 @@ export default function Home() {
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <p className="text-xs text-zinc-500">Built by Cikawan &copy; 2026</p>
           <a
-            href="https://github.com/MeledakCik"
+            href="https://www.kasyaf-cv.my.id"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
           >
-            <Github size={14} />
-            GitHub
+            <CurlyBracesIcon size={14} />
+            Owner
           </a>
         </div>
       </footer>
